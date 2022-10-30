@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+}
+
+.menu .logo{
+    width: 50%;
+}
+
+.menu .logo img{
+    width: 100%;
+    height: 150px;
+}
+
+.menu .menu-components{
+    width: 50%;
+    height: 150px;
+    background-color: #363636;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-components ul{
+    margin-left: 15%;
+}
+
+.menu-components li {
+    list-style-type: none;
+    display:inline;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+}
+
+
+.information{
+    width: 75%;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 2%;
+    display: flex;
+}
+
+.information-left-image{
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+    border: 2px solid black;
+    color: white;
+    background-color: #6da657;
+    text-align: center;
+}
+
+.information-left-image img{
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+
+.information-middle-image{
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    background-color: #e6e5ac;
+    text-align: center;
+}
+
+.information-middle-image img{
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+
+.information-right-image{
+    width: 30%;
+    height: auto;
+    margin-left: 5%;
+    border: 2px solid black;
+    background-color: #80adcc;
+    color: white;
+    text-align: center;
+}
+
+.information-right-image img{
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+
+.information h3{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 15px 5px 10px 5px; 
+}
+
+.sign-up{
+    width: 75%;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 200px;
+    text-align: center;
+}
+
+.sign-up-header h2{
+    padding-top:20px;
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.sign-up-footer{
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+
+}
+
+.sign-up-footer input{
+    border: none;
+    background-color: yellow;
+    width: 70%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
+.sign-up-footer-send{
+    width: 30%;
+}
+
+.sign-up-footer button{
+    background-color: yellow;
+    border: none;
+    width: 50%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.sign-up-footer span{
+    color: black;
+    font-size: 30px;
+    width: 50%;
+}
+
+
+.footer {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.copyright{
+    padding: 30px 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+.social{
+    margin: 0 0 0 450px;
+    display: flex;
+    padding: 30px 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+.fa-brands {
+    margin-top: -10px;
+    font-size: 40px;
+    color: black;
+    margin-left: 15px;
+}
